@@ -1,0 +1,52 @@
+.all-movies-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.movies-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.movie-item {
+    width: 200px;
+    margin: 10px;
+}
+
+.movie-poster2 {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.watchlist {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.watchlist-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px; 
+}
+
+button {
+    margin-top: 10px;
+}
+
+.movie-info {
+    text-align: center;
+}
+
+.movie-info h3 {
+    margin-bottom: 10px;
+}
